@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE65071122C890880044BD8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65071022C890880044BD8E /* AppDelegate.swift */; };
+		EE65071322C890880044BD8E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65071222C890880044BD8E /* FirstViewController.swift */; };
+		EE65071522C890880044BD8E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65071422C890880044BD8E /* SecondViewController.swift */; };
+		EE65071822C890880044BD8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65071622C890880044BD8E /* Main.storyboard */; };
+		EE65071A22C8908B0044BD8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE65071922C8908B0044BD8E /* Assets.xcassets */; };
+		EE65071D22C8908B0044BD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65071B22C8908B0044BD8E /* LaunchScreen.storyboard */; };
+		EE65072822C8908C0044BD8E /* WireChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65072722C8908C0044BD8E /* WireChatTests.swift */; };
+		EE65073322C8908C0044BD8E /* WireChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65073222C8908C0044BD8E /* WireChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE65072422C8908C0044BD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE65070522C890880044BD8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE65070C22C890880044BD8E;
+			remoteInfo = WireChat;
+		};
+		EE65072F22C8908C0044BD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE65070522C890880044BD8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE65070C22C890880044BD8E;
+			remoteInfo = WireChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE65070D22C890880044BD8E /* WireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE65071022C890880044BD8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE65071222C890880044BD8E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EE65071422C890880044BD8E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EE65071722C890880044BD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE65071922C8908B0044BD8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE65071C22C8908B0044BD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE65071E22C8908B0044BD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE65072322C8908C0044BD8E /* WireChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WireChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE65072722C8908C0044BD8E /* WireChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireChatTests.swift; sourceTree = "<group>"; };
+		EE65072922C8908C0044BD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE65072E22C8908C0044BD8E /* WireChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WireChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE65073222C8908C0044BD8E /* WireChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireChatUITests.swift; sourceTree = "<group>"; };
+		EE65073422C8908C0044BD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE65070A22C890880044BD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65072022C8908C0044BD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65072B22C8908C0044BD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE65070422C890880044BD8E = {
+			isa = PBXGroup;
+			children = (
+				EE65070F22C890880044BD8E /* WireChat */,
+				EE65072622C8908C0044BD8E /* WireChatTests */,
+				EE65073122C8908C0044BD8E /* WireChatUITests */,
+				EE65070E22C890880044BD8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE65070E22C890880044BD8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE65070D22C890880044BD8E /* WireChat.app */,
+				EE65072322C8908C0044BD8E /* WireChatTests.xctest */,
+				EE65072E22C8908C0044BD8E /* WireChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE65070F22C890880044BD8E /* WireChat */ = {
+			isa = PBXGroup;
+			children = (
+				EE65071022C890880044BD8E /* AppDelegate.swift */,
+				EE65071222C890880044BD8E /* FirstViewController.swift */,
+				EE65071422C890880044BD8E /* SecondViewController.swift */,
+				EE65071622C890880044BD8E /* Main.storyboard */,
+				EE65071922C8908B0044BD8E /* Assets.xcassets */,
+				EE65071B22C8908B0044BD8E /* LaunchScreen.storyboard */,
+				EE65071E22C8908B0044BD8E /* Info.plist */,
+			);
+			path = WireChat;
+			sourceTree = "<group>";
+		};
+		EE65072622C8908C0044BD8E /* WireChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE65072722C8908C0044BD8E /* WireChatTests.swift */,
+				EE65072922C8908C0044BD8E /* Info.plist */,
+			);
+			path = WireChatTests;
+			sourceTree = "<group>";
+		};
+		EE65073122C8908C0044BD8E /* WireChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE65073222C8908C0044BD8E /* WireChatUITests.swift */,
+				EE65073422C8908C0044BD8E /* Info.plist */,
+			);
+			path = WireChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE65070C22C890880044BD8E /* WireChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE65073722C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChat" */;
+			buildPhases = (
+				EE65070922C890880044BD8E /* Sources */,
+				EE65070A22C890880044BD8E /* Frameworks */,
+				EE65070B22C890880044BD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WireChat;
+			productName = WireChat;
+			productReference = EE65070D22C890880044BD8E /* WireChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE65072222C8908C0044BD8E /* WireChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE65073A22C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChatTests" */;
+			buildPhases = (
+				EE65071F22C8908C0044BD8E /* Sources */,
+				EE65072022C8908C0044BD8E /* Frameworks */,
+				EE65072122C8908C0044BD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE65072522C8908C0044BD8E /* PBXTargetDependency */,
+			);
+			name = WireChatTests;
+			productName = WireChatTests;
+			productReference = EE65072322C8908C0044BD8E /* WireChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE65072D22C8908C0044BD8E /* WireChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE65073D22C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChatUITests" */;
+			buildPhases = (
+				EE65072A22C8908C0044BD8E /* Sources */,
+				EE65072B22C8908C0044BD8E /* Frameworks */,
+				EE65072C22C8908C0044BD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE65073022C8908C0044BD8E /* PBXTargetDependency */,
+			);
+			name = WireChatUITests;
+			productName = WireChatUITests;
+			productReference = EE65072E22C8908C0044BD8E /* WireChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE65070522C890880044BD8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "LS-Community";
+				TargetAttributes = {
+					EE65070C22C890880044BD8E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE65072222C8908C0044BD8E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE65070C22C890880044BD8E;
+					};
+					EE65072D22C8908C0044BD8E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE65070C22C890880044BD8E;
+					};
+				};
+			};
+			buildConfigurationList = EE65070822C890880044BD8E /* Build configuration list for PBXProject "WireChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE65070422C890880044BD8E;
+			productRefGroup = EE65070E22C890880044BD8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE65070C22C890880044BD8E /* WireChat */,
+				EE65072222C8908C0044BD8E /* WireChatTests */,
+				EE65072D22C8908C0044BD8E /* WireChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE65070B22C890880044BD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65071D22C8908B0044BD8E /* LaunchScreen.storyboard in Resources */,
+				EE65071A22C8908B0044BD8E /* Assets.xcassets in Resources */,
+				EE65071822C890880044BD8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65072122C8908C0044BD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65072C22C8908C0044BD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE65070922C890880044BD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65071522C890880044BD8E /* SecondViewController.swift in Sources */,
+				EE65071122C890880044BD8E /* AppDelegate.swift in Sources */,
+				EE65071322C890880044BD8E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65071F22C8908C0044BD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65072822C8908C0044BD8E /* WireChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65072A22C8908C0044BD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65073322C8908C0044BD8E /* WireChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE65072522C8908C0044BD8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE65070C22C890880044BD8E /* WireChat */;
+			targetProxy = EE65072422C8908C0044BD8E /* PBXContainerItemProxy */;
+		};
+		EE65073022C8908C0044BD8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE65070C22C890880044BD8E /* WireChat */;
+			targetProxy = EE65072F22C8908C0044BD8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE65071622C890880044BD8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE65071722C890880044BD8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE65071B22C8908B0044BD8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE65071C22C8908B0044BD8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE65073522C8908C0044BD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE65073622C8908C0044BD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE65073822C8908C0044BD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMN25XC68X;
+				INFOPLIST_FILE = WireChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.WireChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE65073922C8908C0044BD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMN25XC68X;
+				INFOPLIST_FILE = WireChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.WireChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE65073B22C8908C0044BD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMN25XC68X;
+				INFOPLIST_FILE = WireChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.WireChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WireChat.app/WireChat";
+			};
+			name = Debug;
+		};
+		EE65073C22C8908C0044BD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMN25XC68X;
+				INFOPLIST_FILE = WireChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.WireChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WireChat.app/WireChat";
+			};
+			name = Release;
+		};
+		EE65073E22C8908C0044BD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMN25XC68X;
+				INFOPLIST_FILE = WireChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.WireChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WireChat;
+			};
+			name = Debug;
+		};
+		EE65073F22C8908C0044BD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMN25XC68X;
+				INFOPLIST_FILE = WireChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.WireChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WireChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE65070822C890880044BD8E /* Build configuration list for PBXProject "WireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65073522C8908C0044BD8E /* Debug */,
+				EE65073622C8908C0044BD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE65073722C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65073822C8908C0044BD8E /* Debug */,
+				EE65073922C8908C0044BD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE65073A22C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65073B22C8908C0044BD8E /* Debug */,
+				EE65073C22C8908C0044BD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE65073D22C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65073E22C8908C0044BD8E /* Debug */,
+				EE65073F22C8908C0044BD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE65070522C890880044BD8E /* Project object */;
+}
