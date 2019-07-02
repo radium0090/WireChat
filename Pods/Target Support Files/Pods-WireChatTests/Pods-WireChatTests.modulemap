@@ -1,6 +1,0 @@
-framework module Pods_WireChatTests {
-  umbrella header "Pods-WireChatTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
