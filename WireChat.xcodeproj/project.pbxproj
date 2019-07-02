@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F27381F604573161D34D375 /* Pods_WireChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD5261659AC5051912F728D /* Pods_WireChatTests.framework */; };
+		C04020C2F1B5D038FE4FEFBD /* Pods_WireChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71E15E121D5413BB0F8B4C4 /* Pods_WireChat.framework */; };
+		D4B35D910B62FCD100C647FD /* Pods_WireChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB08998D690E0A2C86A5365 /* Pods_WireChatUITests.framework */; };
 		EE65071122C890880044BD8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65071022C890880044BD8E /* AppDelegate.swift */; };
 		EE65071322C890880044BD8E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65071222C890880044BD8E /* FirstViewController.swift */; };
 		EE65071522C890880044BD8E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65071422C890880044BD8E /* SecondViewController.swift */; };
@@ -15,6 +18,7 @@
 		EE65071D22C8908B0044BD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65071B22C8908B0044BD8E /* LaunchScreen.storyboard */; };
 		EE65072822C8908C0044BD8E /* WireChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65072722C8908C0044BD8E /* WireChatTests.swift */; };
 		EE65073322C8908C0044BD8E /* WireChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65073222C8908C0044BD8E /* WireChatUITests.swift */; };
+		EE65074122C8B1240044BD8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE65074022C8B1240044BD8E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07E15962A9B6C2B674C29728 /* Pods-WireChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireChatUITests.release.xcconfig"; path = "Target Support Files/Pods-WireChatUITests/Pods-WireChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AD5261659AC5051912F728D /* Pods_WireChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B98EF7640F6E421559774F0 /* Pods-WireChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-WireChatUITests/Pods-WireChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		537E82EA7BA11C7F7ACE2B9C /* Pods-WireChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireChat.debug.xcconfig"; path = "Target Support Files/Pods-WireChat/Pods-WireChat.debug.xcconfig"; sourceTree = "<group>"; };
+		8092A7B77F2A72E0E0DE97AF /* Pods-WireChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireChat.release.xcconfig"; path = "Target Support Files/Pods-WireChat/Pods-WireChat.release.xcconfig"; sourceTree = "<group>"; };
+		8C791CFC806EB6FAFF0BED43 /* Pods-WireChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireChatTests.release.xcconfig"; path = "Target Support Files/Pods-WireChatTests/Pods-WireChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADB08998D690E0A2C86A5365 /* Pods_WireChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88E901C2C5A2621B82998C /* Pods-WireChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireChatTests.debug.xcconfig"; path = "Target Support Files/Pods-WireChatTests/Pods-WireChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71E15E121D5413BB0F8B4C4 /* Pods_WireChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE65070D22C890880044BD8E /* WireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE65071022C890880044BD8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE65071222C890880044BD8E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		EE65072E22C8908C0044BD8E /* WireChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WireChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE65073222C8908C0044BD8E /* WireChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireChatUITests.swift; sourceTree = "<group>"; };
 		EE65073422C8908C0044BD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE65074022C8B1240044BD8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04020C2F1B5D038FE4FEFBD /* Pods_WireChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F27381F604573161D34D375 /* Pods_WireChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B35D910B62FCD100C647FD /* Pods_WireChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1814627239B93BF812687D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D71E15E121D5413BB0F8B4C4 /* Pods_WireChat.framework */,
+				0AD5261659AC5051912F728D /* Pods_WireChatTests.framework */,
+				ADB08998D690E0A2C86A5365 /* Pods_WireChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE65070422C890880044BD8E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				EE65072622C8908C0044BD8E /* WireChatTests */,
 				EE65073122C8908C0044BD8E /* WireChatUITests */,
 				EE65070E22C890880044BD8E /* Products */,
+				F7A622584D5A39EF11A3A50F /* Pods */,
+				1814627239B93BF812687D74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +135,7 @@
 				EE65071922C8908B0044BD8E /* Assets.xcassets */,
 				EE65071B22C8908B0044BD8E /* LaunchScreen.storyboard */,
 				EE65071E22C8908B0044BD8E /* Info.plist */,
+				EE65074022C8B1240044BD8E /* GoogleService-Info.plist */,
 			);
 			path = WireChat;
 			sourceTree = "<group>";
@@ -128,6 +158,19 @@
 			path = WireChatUITests;
 			sourceTree = "<group>";
 		};
+		F7A622584D5A39EF11A3A50F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				537E82EA7BA11C7F7ACE2B9C /* Pods-WireChat.debug.xcconfig */,
+				8092A7B77F2A72E0E0DE97AF /* Pods-WireChat.release.xcconfig */,
+				CE88E901C2C5A2621B82998C /* Pods-WireChatTests.debug.xcconfig */,
+				8C791CFC806EB6FAFF0BED43 /* Pods-WireChatTests.release.xcconfig */,
+				0B98EF7640F6E421559774F0 /* Pods-WireChatUITests.debug.xcconfig */,
+				07E15962A9B6C2B674C29728 /* Pods-WireChatUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE65073722C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChat" */;
 			buildPhases = (
+				15E249C43279F331822F1DAE /* [CP] Check Pods Manifest.lock */,
 				EE65070922C890880044BD8E /* Sources */,
 				EE65070A22C890880044BD8E /* Frameworks */,
 				EE65070B22C890880044BD8E /* Resources */,
+				AC9C17D9AD0487610E56E133 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE65073A22C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChatTests" */;
 			buildPhases = (
+				0BAF5541643625DD62B4050E /* [CP] Check Pods Manifest.lock */,
 				EE65071F22C8908C0044BD8E /* Sources */,
 				EE65072022C8908C0044BD8E /* Frameworks */,
 				EE65072122C8908C0044BD8E /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE65073D22C8908C0044BD8E /* Build configuration list for PBXNativeTarget "WireChatUITests" */;
 			buildPhases = (
+				100C24D50ADF70A707C51BBD /* [CP] Check Pods Manifest.lock */,
 				EE65072A22C8908C0044BD8E /* Sources */,
 				EE65072B22C8908C0044BD8E /* Frameworks */,
 				EE65072C22C8908C0044BD8E /* Resources */,
@@ -233,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE65071D22C8908B0044BD8E /* LaunchScreen.storyboard in Resources */,
+				EE65074122C8B1240044BD8E /* GoogleService-Info.plist in Resources */,
 				EE65071A22C8908B0044BD8E /* Assets.xcassets in Resources */,
 				EE65071822C890880044BD8E /* Main.storyboard in Resources */,
 			);
@@ -253,6 +301,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BAF5541643625DD62B4050E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		100C24D50ADF70A707C51BBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15E249C43279F331822F1DAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9C17D9AD0487610E56E133 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WireChat/Pods-WireChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WireChat/Pods-WireChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WireChat/Pods-WireChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE65070922C890880044BD8E /* Sources */ = {
@@ -434,6 +568,7 @@
 		};
 		EE65073822C8908C0044BD8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537E82EA7BA11C7F7ACE2B9C /* Pods-WireChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +587,7 @@
 		};
 		EE65073922C8908C0044BD8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8092A7B77F2A72E0E0DE97AF /* Pods-WireChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +606,7 @@
 		};
 		EE65073B22C8908C0044BD8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE88E901C2C5A2621B82998C /* Pods-WireChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +628,7 @@
 		};
 		EE65073C22C8908C0044BD8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C791CFC806EB6FAFF0BED43 /* Pods-WireChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +650,7 @@
 		};
 		EE65073E22C8908C0044BD8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B98EF7640F6E421559774F0 /* Pods-WireChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +671,7 @@
 		};
 		EE65073F22C8908C0044BD8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E15962A9B6C2B674C29728 /* Pods-WireChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
